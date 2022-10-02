@@ -1,0 +1,89 @@
+body {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+textarea{
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: #E3FAE3;
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid #008573;
+
+}
+
+.calender-container{
+	width: 340px;
+	padding: 100px;
+	border: 5px solid #008573;
+	margin-left: 0px;
+	margin-top:50px;
+	border-radius: 10mm;
+	background:#E3FAE3;
+	float:left;
+}
+
+.table-container{
+	margin-left: 400px;
+	float: center;
+  
+}
+
+.time-block{
+  text-align: center;
+  border-radius: 15px;
+}
+
+.form-entry{
+	margin: 10px;
+	width: 650px;
+	padding: 20px 0px;
+	border-radius: 15px;
+	white-space: pre-wrap;
+}
+
+
+
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+}
+
+.past {
+  background-color: #d3d3d3;
+  color: white;
+}
+
+.present {
+  background-color: #ff6961;
+  color: white;
+}
+
+.future {
+  background-color: #77dd77;
+  color: white;
+}
+
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06AED5;
+  color: white;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
