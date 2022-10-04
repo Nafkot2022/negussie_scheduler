@@ -1,16 +1,8 @@
+
 body {
   font-family:Georgia, 'Times New Roman', Times, serif;
   font-size: 16px;
   line-height: 1;
-}
-
-textarea{
-  background: transparent;
-  border: none;
-  resize: none;
-  color: #000000;
-  border-left: 1px solid black;
-  padding: 10px;
 }
 
 .jumbotron {
@@ -18,8 +10,7 @@ textarea{
   background-color: #E3FAE3;
   color: black;
   border-radius: 0;
-  border-bottom: 10px solid #008573;
-
+  border-bottom: 30px solid #008573;
 }
 
 .calender-container{
@@ -28,7 +19,7 @@ textarea{
 	border: 5px solid #008573;
 	margin-left: 0px;
 	margin-top:50px;
-	border-radius: 10mm;
+	border-radius: 50mm;
 	background:#E3FAE3;
 	float:left;
 }
@@ -36,6 +27,7 @@ textarea{
 .table-container{
 	margin-left: 400px;
 	float: center;
+	margin-top: 10px;
   
 }
 
@@ -52,12 +44,19 @@ textarea{
 	white-space: pre-wrap;
 }
 
+.saveBtn {
+	padding:20px;
+  border-left: 1px solid black;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 15px;
+  background-color: #06AED5;
+	
+  color: white;
+}
 
-
-.hour {
-  background-color: #ffffff;
-  color: #000000;
-  border-top: 1px dashed #000000;
+.saveBtn i:hover {
+  font-size: 30px;
+  transition: all .3s ease-in-out;
 }
 
 .past {
@@ -75,15 +74,3 @@ textarea{
   color: white;
 }
 
-.saveBtn {
-  border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: #06AED5;
-  color: white;
-}
-
-.saveBtn i:hover {
-  font-size: 20px;
-  transition: all .3s ease-in-out;
-}
